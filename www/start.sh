@@ -9,7 +9,5 @@ php artisan route:cache
 php artisan migrate
 php artisan db:seed
 php artisan test
-# APP commands
-php artisan cache-clients
 # Run queue listener
 php artisan horizon

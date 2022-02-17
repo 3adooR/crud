@@ -1,0 +1,88 @@
+@import 'main.scss';
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%
+}
+
+body {
+    display: block;
+    background: #101010;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+}
+
+#app {
+    padding: 2em;
+
+    .client {
+        padding: 1em;
+        margin: 1em 0;
+        background: #fff;
+        border-radius: 1em;
+        color: #222;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+
+        input {
+            background: none;
+            padding: 0.5em;
+            margin: 0;
+            border: 0;
+            font-family: 'Nunito', sans-serif;
+            font-size: 1em;
+        }
+
+        .actions {
+            svg {
+                margin: 0 1em;
+                cursor: pointer;
+                font-size: 1.5em;
+            }
+
+            svg:hover {
+                color: #1c3d5a;
+            }
+        }
+    }
+
+    button {
+        background: #5031E4;
+        border: 0;
+        padding: 0.5em 1em;
+        color: #fff;
+        font-family: 'Nunito', sans-serif;
+        font-size: 1em;
+        border-radius: 0.5em;
+    }
+
+    button:hover {
+        background: #1c3d5a;
+    }
+
+    .client-add-form {
+        position: absolute;
+        z-index: 999;
+        margin: 1em 0 0 0;
+        padding: 2em;
+        background: #fff;
+        border-radius: 1em;
+        color: #5031E4;
+
+        div {
+            margin: 1em 0;
+
+            input {
+                margin-left: 1em;
+                padding: 0.5em;
+                font-family: 'Nunito', sans-serif;
+                font-size: 1em;
+            }
+        }
+    }
+}

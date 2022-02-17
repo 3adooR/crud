@@ -1,0 +1,1 @@
+docker-compose run -u root php bash -c "apt-get update && apt-get install -y supervisor"
